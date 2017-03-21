@@ -7,3 +7,6 @@
 
 
 有难的也有简单的
+
+关于dom的笔记：
+http://mubu.io/doc/5RshlL1zQ
