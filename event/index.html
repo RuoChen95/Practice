@@ -9,12 +9,22 @@
 	<p id = "intro" class="test">there are a number of reasons why the dom is awesome; here are some:</p>
 	<ul id = "itmes">
 		<li id="everywhere">1: it can be found everywhere</li>
-		<li class="test">2: it's easy to use</li>
-		<li class="test">3: it can help you to find what you want<p><strong>i am strong!</strong>23</p> </li>
+		<li class="test" id="1">2: it's easy to use</li>
+		<li class="test" id="2">3: it can help you to find what you want<p><strong>i am strong!</strong>23</p> </li>
 	</ul>
 	<script type="text/javascript">
+/*
+事件委托
+*/
 
+		function handle(e){
+			console.log("handle at " + e.currentTarget.id)
+			console.log("emitted by " + e.target.id)
+		}
 
+		var navbar = document.getElementById("itmes");
+		navbar.addEventListener("click",handle);
+/*
 		var  button = document.getElementById('intro');
 
 		button.ondblclick = function(e){
@@ -32,6 +42,7 @@
 			//document.getElementById('intro').onclick = null;
 			
 		};
+*/
 		
 /*
 		function foo(){
