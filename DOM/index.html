@@ -3,6 +3,10 @@
 <head>
 	<title>dom selflearning</title>
 	<meta charset="utf-8">
+	<style type="text/css">
+		li:nth-last-child(2n+3)::before {content: "Special! "}
+
+	</style>
 </head>
 <body>
 	<h1>my dom world</h1>
@@ -10,9 +14,16 @@
 	<ul id = "itmes">
 		<li id="everywhere">1: it can be found everywhere</li>
 		<li class="test">2: it's easy to use</li>
-		<li class="test">3: it can help you to find what you want<p><strong>i am strong!</strong>23</p> </li>
+		<li class="test">3: it can help you to find what you want<p><strong>i am strong!</strong>23</p></li>
+		<li id="everywhere">4: it can be found everywhere</li>
+		<li class="test">5: it's easy to use</li>
+		<li id="everywhere">6: it can be found everywhere</li>
+		<li class="test">7: it's easy to use</li>
+		<li id="everywhere">8: it can be found everywhere</li>
+		<li class="test">9: it's easy to use</li>
 	</ul>
 	<script type="text/javascript">
+	/*
 		var elem0 = document.getElementsByTagName('li')[0];
 		var elem1 = document.getElementsByTagName("li")[1];
 		var elem2 = document.getElementsByTagName("li")[2];
@@ -21,7 +32,7 @@
 		elem3.innerHTML = "<li>123</li>";
 		elem0.parentNode.insertBefore(elem3, elem2);
 		elem0.parentNode.insertBefore(elem2,elem3);
-
+	*/
 	</script>
 </body>
 </html>
