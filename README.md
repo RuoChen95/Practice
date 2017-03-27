@@ -11,7 +11,8 @@
 关于dom的笔记：
 http://mubu.io/doc/5RshlL1zQ
 
-     #learning #pass #learningAgain #learned #new
+关于js以及CSS的笔记
+    #learning #pass #learningAgain #learned #new
     JavaScript
         js语言特性
             操作符
