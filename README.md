@@ -192,29 +192,3 @@ http://mubu.io/doc/5RshlL1zQ
         用户体验
         结构和布局
         过渡和动画
-    计划
-        内容
-            复习js语言基础
-                可以在算法学习中复习
-            js数据结构
-                《学习javascript数据结构以及算法》
-            CSS
-                《CSS揭秘》
-            JS算法深入
-                《算法导论》
-            ……
-        时间
-            3.25
-                算法开头
-                CSS开头
-            3.26
-                算法继续
-                CSS继续
-            3.27
-                早上css
-                下午js以及css
-                晚上复习、处理learning、上传Git
-    文件内容
-        Dynalist：电厂实习前的内容
-        幕布：电厂实习内容，dom以及event
-        this:电厂实习后的内容
