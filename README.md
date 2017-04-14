@@ -1,7 +1,7 @@
 # Practice
-个人对于HTML、CSS以及JavaScript的练习，源码在[这里](https://github.com/zhangmengxue/Practice)
+个人对于HTML、CSS以及JavaScript的练习，一部分的源码在[这里](https://github.com/zhangmengxue/Practice)
 
-
+在HTML&CSS文件夹内，模拟了公司的网页布局，目前还存在一些问题。
 
 
 

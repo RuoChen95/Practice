@@ -1,0 +1,73 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+
+.head{	
+	background-color: rgb(38, 38, 38);
+	padding: 10px;
+}
+
+.head img{
+	margin-right: 10em;
+}
+
+.head ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 4em;
+	font-size: 17px;
+	color:#aaa;
+}
+
+.login{
+	float: right;
+	display: inline-block;
+	width: 10em;
+}
+
+.subNavbar{
+	background-color: gray;
+	padding: 10px;
+	width: 100%;
+}
+
+.subNavbar ul li{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 4em;
+	font-size: 17px;
+}
+
+.description{
+	display: inline-block;
+}
+
+.control{
+	display: inline-block;
+}
+
+section[class="description"]{
+	height: 20em;
+	margin: 0 60px;
+}
+
+article{
+	margin:0 1em;
+	line-height: 34px;
+}
+
+article img{
+	float: left;
+}
+
+article .description{
+	float: left;
+	margin-left: 2em;
+
+}
+
+.details article{
+	margin-bottom: 2em;
+}
