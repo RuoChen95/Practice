@@ -13,12 +13,21 @@
 	margin-right: 10em;
 }
 
-.head ul li{
+.head ul li,
+.subNavbar ul li
+{
 	text-decoration: none;
 	display: inline-block;
 	margin-right: 4em;
 	font-size: 17px;
+}
+
+.head ul li{
 	color:#aaa;
+}
+
+.subNavbar ul li{
+	color: white;
 }
 
 .login{
@@ -31,15 +40,13 @@
 	background-color: gray;
 	padding: 10px;
 	width: 100%;
-	text-align: center;
 }
 
-.subNavbar ul li{
-	text-decoration: none;
-	display: inline-block;
-	width: 10em;
-	margin-right: 0 auto;
-	font-size: 17px;
+.subNavbarFixed{
+	background-color: gray;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
 }
 
 .description{
@@ -74,7 +81,17 @@ article .description{
 	margin-bottom: 2em;
 }
 
+li:hover{
+	box-shadow: 0px 2px 0px white;
+	cursor:pointer
+}
+
 footer{
 	background-color: rgb(00, 38, 38);
 	color: white;
+}
+@media (max-width: 1050px) {
+  img{
+  	display: none;
+  }
 }
