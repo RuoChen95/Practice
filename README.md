@@ -1,18 +1,19 @@
 # Practice
-个人对于HTML、CSS以及JavaScript的练习，一部分的源码在[这里](https://github.com/zhangmengxue/Practice)
 
-在HTML&CSS文件夹内，模拟了公司的网页布局，目前还存在一些问题。
+## demo的目的以及内容
+个人对于HTML、CSS、JavaScript以及Git的练习。
 
+Javascript部分：参照了一些[源码](https://github.com/zhangmengxue/Practice)。
 
+单页面部分：在HTML&CSS文件夹内，模拟了公司的网页布局，目前还存在一些问题：
 
+## 存在的问题
+公司已开始给我配了mac，弄好了ssh密钥，设置好之后目前还不知道怎么添加新的上传用户，没法进入以前的输入用户名和密码的环节。
 
-有难的也有简单的
-
-关于dom的笔记：
+## 关于dom的笔记
 http://mubu.io/doc/5RshlL1zQ
 
-
-
+## 关于Javascript以及CSS的笔记
 
     #learning #pass #learningAgain #learned #new
     JavaScript
